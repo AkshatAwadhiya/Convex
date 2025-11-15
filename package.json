@@ -1,18 +1,26 @@
 {
-    "name": "convex-backend",
-    "version": "1.0.0",
-    "private": true,
-    "type": "module",
-    "scripts": {
-      "dev": "convex dev",
-      "deploy": "convex deploy"
-    },
-    "dependencies": {
-      "convex": "^1.18.2",
-      "svix": "^1.45.1"
-    },
-    "devDependencies": {
-      "@types/node": "^20",
-      "typescript": "^5"
-    }
+  "name": "convex-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "convex:dev": "convex dev",
+    "convex:deploy": "convex deploy"
+  },
+  "dependencies": {
+    "convex": "^1.18.2",
+    "svix": "^1.45.1",
+    "next": "^14.2.23",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
   }
+}
