@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.local
+.convex/
+
+# Convex backend (separate project)
+convex/node_modules/
+convex/.env
+convex/.env.local
+convex/_generated/
+convex/.convex/
+convex/package-lock.json
